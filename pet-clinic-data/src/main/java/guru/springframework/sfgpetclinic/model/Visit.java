@@ -14,7 +14,6 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Entity
 @Table (name = "visits")
 public class Visit extends BaseEntity {
 
